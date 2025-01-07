@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <script>
+const temperatureConverter = {
+    toCelsius: function(tempInFahrenheit) {
+        return ((tempInFahrenheit - 32) * 5) / 9;
+    },
+    toFahrenheit: function(tempInCelsius) {
+        return (tempInCelsius * 9) / 5 + 32;
+    }
+};
+const tempF = 212; 
+const tempC = 100;
+console.log(`${tempF}°F is equal to ${temperatureConverter.toCelsius(tempF).toFixed(2)}°C`);
+console.log(`${tempC}°C is equal to ${temperatureConverter.toFahrenheit(tempC).toFixed(2)}°F`);
+        </script>
+    </body>
+</html>
