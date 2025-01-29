@@ -1,4 +1,0 @@
-async funstion GamepadHapticActuator()
-{
-    
-}
